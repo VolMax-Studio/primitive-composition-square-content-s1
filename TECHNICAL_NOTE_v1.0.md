@@ -1,11 +1,11 @@
 # Square Content in Primitive Pythagorean Composition
 
-**Technical note — v0.1**  
+**Technical note — v1.0**
 **Ivan Nestorov, VolMax Studio Lab**  
 **September 2026**
 
-> Status: AI-assisted exposition draft prepared under Ivan Nestorov's
-> direction. Human ratification of this exposition is pending.
+> Status: Final exposition candidate, prepared with AI assistance under
+> Ivan Nestorov's direction. Human ratification is pending.
 >
 > This note explains already frozen Lean 4 results. It does not extend the
 > theorem scope or make a claim of mathematical novelty or priority.
