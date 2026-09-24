@@ -94,10 +94,28 @@ The B Lean artifact is human-ratified by an SSH-signed annotated Git tag
 `primitive-composition-square-content-v1-ratified`, pointing to commit
 `027b50086d333ae2acbbecfd60e1ad6cb80edf7d`.
 
-The pinned GitHub Actions Lean gate completed successfully, and the independent
-review gate returned `SURVIVES-REVIEW`.  The reviewer did not independently
-reproduce the Lean kernel build; that limitation remains part of the record.
+The pinned GitHub Actions Lean gate completed successfully, and an AI gate review
+of mediated artifacts returned `SURVIVES-REVIEW`.  The reviewer had no direct
+repository access and did not independently reproduce the Lean kernel build;
+those limitations remain part of the record.
 
 Ratification covers only the stated Lean theorem scope.  Benchmark D remains
 `HALT`.  This artifact makes no performance, novelty, factorization-equivalence,
 RSA, or publication claim.
+
+---
+
+## Canonical publication artifact
+
+The frozen public proof-artifact bundle for Rungs A and B is archived on Zenodo:
+
+- DOI: `10.5281/zenodo.22940155`
+- Version: `1.0.0`
+- License: MIT
+- Record: https://doi.org/10.5281/zenodo.22940155
+
+For Rung B, the human-ratified theorem commit remains
+`027b50086d333ae2acbbecfd60e1ad6cb80edf7d`.
+
+The publication snapshot is tagged
+`primitive-composition-square-content-v1-publication-snapshot`.
