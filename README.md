@@ -90,10 +90,14 @@ must be the full commit shown above.
 
 ## Gate status
 
-Author-side pinned build and all listed audits pass.  This is a **pre-gate
-artifact**, not an independent reproduction or ratification.  An independent
-machine must repeat the commands and compare the full hashes before the state
-can advance.
+The B Lean artifact is human-ratified by an SSH-signed annotated Git tag
+`primitive-composition-square-content-v1-ratified`, pointing to commit
+`027b50086d333ae2acbbecfd60e1ad6cb80edf7d`.
 
-Benchmark D remains `HALT`.  This artifact makes no performance, novelty,
-factorization-equivalence, RSA, or publication claim.
+The pinned GitHub Actions Lean gate completed successfully, and the independent
+review gate returned `SURVIVES-REVIEW`.  The reviewer did not independently
+reproduce the Lean kernel build; that limitation remains part of the record.
+
+Ratification covers only the stated Lean theorem scope.  Benchmark D remains
+`HALT`.  This artifact makes no performance, novelty, factorization-equivalence,
+RSA, or publication claim.
